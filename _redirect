@@ -1,0 +1,15 @@
+# Redirects from what the browser requests to what we serve
+/home                /
+/dashboard    		/dashboard		200!
+/delivery		/delivery		200!
+/portfolio              /portfolio		200!
+/subscription 		/subscription		200!
+/login			/login			200!
+/return/*		/return/:splat		200!
+/aboutus		/aboutus		200!
+/single/*		/single/:splat		200!
+/cancel			/cancel			200!
+/checkout		/checkout		200!
+/checkout-form/*	/checkout-form/:splat	200!
+	
+
